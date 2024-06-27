@@ -102,7 +102,7 @@ body {
     font-size: 6pt;
   }
   #main {
-    max-width: 80%;
+    max-width: 90%;
   }
 }
 
@@ -340,3 +340,8 @@ h2 {
 #h2 {
   margin-bottom: 20px;
 }
+
+#fpot1 {
+  line-height: 13px;
+}
+
