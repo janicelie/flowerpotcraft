@@ -7,6 +7,13 @@ $(document).ready(function () {
 
 var productData = [
   {
+    brand: "Aula Gear",
+    item: "Aula F75 Keyboard",
+    link: "https://www.amazon.com/dp/B0D3F69XSP/ref=tsm_1_fb_lk",
+    disc_code: "-",
+    disc_percent: "-",
+  },
+  {
     brand: "Blingblingyarn",
     item: "Glowing Yarn",
     link: "http://www.blingblingyarn.com/flowerpotcraft",
