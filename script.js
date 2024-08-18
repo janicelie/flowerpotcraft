@@ -7,6 +7,13 @@ $(document).ready(function () {
 
 var productData = [
   {
+    brand: "Leobog",
+    item: "Hi75 Keyboard",
+    link: "https://leobogtech.com/products/leobog-hi75",
+    disc_code: "-",
+    disc_percent: "-",
+  },
+  {
     brand: "Aula Gear",
     item: "Aula F75 Keyboard",
     link: "https://www.amazon.com/dp/B0D3F69XSP/ref=tsm_1_fb_lk",
