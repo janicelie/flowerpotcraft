@@ -318,10 +318,11 @@ h2 {
 .product-link {
   font-size: 10px;
   color: rgba(0, 0, 0, 0.553);
+  background-color: #f4dbff;
 }
 
 .product-link:hover {
-  background-color: #f4dbff;
+  background-color: #d9d9d9;
 }
 
 #fpot {
