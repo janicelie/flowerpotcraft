@@ -10,15 +10,15 @@ var productData = [
     brand: "Leobog",
     item: "Hi75 Keyboard",
     link: "https://leobogtech.com/products/leobog-hi75",
-    disc_code: "-",
-    disc_percent: "-",
+    disc_code: "",
+    disc_percent: "",
   },
   {
     brand: "Aula Gear",
     item: "Aula F75 Keyboard",
     link: "https://www.amazon.com/dp/B0D3F69XSP/ref=tsm_1_fb_lk",
-    disc_code: "-",
-    disc_percent: "-",
+    disc_code: "",
+    disc_percent: "",
   },
   {
     brand: "Blingblingyarn",
@@ -31,22 +31,22 @@ var productData = [
     brand: "TokyoCatch",
     item: "Redeem Free 5 Plays",
     link: "https://bit.ly/flowerpotcraft",
-    disc_code: "-",
-    disc_percent: "-",
+    disc_code: "",
+    disc_percent: "",
   },
   {
     brand: "Cerakey",
     item: "Ceramic Keycaps",
     link: "https://www.cerakey.com/products/full-set-v2",
-    disc_code: "-",
-    disc_percent: "-",
+    disc_code: "",
+    disc_percent: "",
   },
   {
     brand: "Kiiboom",
     item: "Phantom68 Keyboard",
     link: "https://www.kiiboom.com/products/kiiboom-phantom-68?variant=43936439271668",
-    disc_code: "-",
-    disc_percent: "-",
+    disc_code: "",
+    disc_percent: "",
   },
   {
     brand: "Energize Lab",
@@ -87,15 +87,15 @@ var productData = [
     brand: "Doughnut",
     item: "Kuromi Series Bag",
     link: "https://bit.ly/3D9J2bo",
-    disc_code: "-",
-    disc_percent: "-",
+    disc_code: "",
+    disc_percent: "",
   },
   {
     brand: "Cidoo",
     item: "ABM066 Keyboard",
     link: "https://cidootech.com/products/cidoo-abm066",
-    disc_code: "-",
-    disc_percent: "-",
+    disc_code: "",
+    disc_percent: "",
   },
   {
     brand: "Cololight",
@@ -115,8 +115,8 @@ var productData = [
     brand: "Kiiboom",
     item: "Meow Meow Squad Keycaps",
     link: "https://www.kiiboom.com/products/kiiboom-maorbeng-meow-meow-squad-keycaps?_pos=1&_sid=a7db0f8d8&_ss=r",
-    disc_code: "-",
-    disc_percent: "-",
+    disc_code: "",
+    disc_percent: "",
   },
   {
     brand: "Funlab",
@@ -129,8 +129,8 @@ var productData = [
     brand: "Akko",
     item: "Mochi & Dango 3068B Plus Keyboard",
     link: "https://en.akkogear.com/product/mochidango-3068b-plus-mechanical-keyboard/",
-    disc_code: "-",
-    disc_percent: "-",
+    disc_code: "",
+    disc_percent: "",
   },
   {
     brand: "Kikagoods",
@@ -150,8 +150,8 @@ var productData = [
     brand: "Akko",
     item: "Cat Theme Mouse",
     link: "https://en.akkogear.com/product/akko-cat-theme-mouse/",
-    disc_code: "-",
-    disc_percent: "-",
+    disc_code: "",
+    disc_percent: "",
   },
   {
     brand: "Divoom",
@@ -164,8 +164,8 @@ var productData = [
     brand: "GeekShare+",
     item: "Hei cat deskmat set",
     link: "https://invi.tt/FZIX",
-    disc_code: "-",
-    disc_percent: "-",
+    disc_code: "",
+    disc_percent: "",
   },
   {
     brand: "Hi Crochet",
@@ -188,12 +188,21 @@ function showProject(productData) {
     const { brand, item, link, disc_code, disc_percent } = product;
     const productEl = document.createElement("div");
     // productEl.classList.add("product");
-    productEl.innerHTML = `
-        <div class="product-container">
-            <a class="product-link" href="${link} target="_blank">${brand} ʚɞ ${item}</a>
-            <p>⤷ use code [ <b>${disc_code}</b> ] for ˗ˏˋ${disc_percent}% offˎˊ˗</p>
-        </div>
-    `;
+    if (disc_code != "") {
+      productEl.innerHTML = `
+          <div class="product-container">
+              <a class="product-link" href="${link} target="_blank">${brand} ʚɞ ${item}</a>
+              <p>⤷ use code [ <b>${disc_code}</b> ] for ˗ˏˋ${disc_percent}% offˎˊ˗</p>
+          </div>
+      `;
+    } else if (disc_code == "") {
+      productEl.innerHTML = `
+          <div class="product-container">
+              <a class="product-link" href="${link} target="_blank">${brand} ʚɞ ${item}</a>
+              <p></p>
+          </div>
+      `;
+    }
     productContainer.appendChild(productEl);
   });
 }
