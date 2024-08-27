@@ -199,7 +199,7 @@ function showProject(productData) {
       productEl.innerHTML = `
           <div class="product-container">
               <a class="product-link" href="${link} target="_blank">${brand} ʚɞ ${item}</a>
-              <p></p>
+              <p class="empty"></p>
           </div>
       `;
     }
