@@ -198,14 +198,14 @@ function showProject(productData) {
     if (disc_code != "") {
       productEl.innerHTML = `
           <div class="product-container">
-              <a class="product-link" href="${link} target="_blank">${brand} ʚɞ ${item}</a>
+              <a class="product-link" href="${link}" target="_blank">${brand} ʚɞ ${item}</a>
               <p>⤷ use code [ <b>${disc_code}</b> ] for ˗ˏˋ${disc_percent}% offˎˊ˗</p>
           </div>
       `;
     } else if (disc_code == "") {
       productEl.innerHTML = `
           <div class="product-container">
-              <a class="product-link" href="${link} target="_blank">${brand} ʚɞ ${item}</a>
+              <a class="product-link" href="${link}" target="_blank">${brand} ʚɞ ${item}</a>
               <p class="empty"></p>
           </div>
       `;
