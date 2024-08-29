@@ -7,6 +7,13 @@ $(document).ready(function () {
 
 var productData = [
   {
+    brand: "Akko",
+    item: "Cinnamoroll ACR TOP75B Keyboard",
+    link: "https://en.akkogear.com/product/cinnamoroll-acr-top75b-mechanical-keyboard/",
+    disc_code: "",
+    disc_percent: "",
+  },
+  {
     brand: "Leobog",
     item: "Hi75 Keyboard",
     link: "https://leobogtech.com/products/leobog-hi75",
