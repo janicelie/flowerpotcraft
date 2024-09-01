@@ -7,6 +7,13 @@ $(document).ready(function () {
 
 var productData = [
   {
+    brand: "GeekShare",
+    item: "Magic Bunny Deskmat",
+    link: "https://geekshare.com/products/magic-bunny-mouse-pad/",
+    disc_code: "",
+    disc_percent: "",
+  },
+  {
     brand: "Akko",
     item: "Cinnamoroll ACR TOP75B Keyboard",
     link: "https://en.akkogear.com/product/cinnamoroll-acr-top75b-mechanical-keyboard/",
