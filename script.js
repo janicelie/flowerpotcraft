@@ -7,6 +7,13 @@ $(document).ready(function () {
 
 var productData = [
   {
+    brand: "Cidoo",
+    item: "Pink Nebula",
+    link: "https://cidootech.com/products/cidoo-nebula/",
+    disc_code: "",
+    disc_percent: "",
+  },
+  {
     brand: "GeekShare",
     item: "Magic Bunny Deskmat",
     link: "https://geekshare.com/products/magic-bunny-mouse-pad/",
