@@ -7,6 +7,13 @@ $(document).ready(function () {
 
 var productData = [
   {
+    brand: "Doughnut",
+    item: "Pompompurin Series Bag",
+    link: "https://bit.ly/46bk8Gb",
+    disc_code: "",
+    disc_percent: "",
+  },
+  {
     brand: "Cidoo",
     item: "Pink Nebula",
     link: "https://cidootech.com/products/cidoo-nebula/",
