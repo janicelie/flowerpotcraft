@@ -92,7 +92,7 @@ var productData = [
   },
   {
     brand: "Casebang",
-    item: "Magentic Phone Cases",
+    item: "Magnetic Phone Case",
     link: "https://casebang.com/",
     disc_code: "FLOWERPOTCRAFT15",
     disc_percent: "15",
