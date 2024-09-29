@@ -7,6 +7,13 @@ $(document).ready(function () {
 
 var productData = [
   {
+    brand: "Casebang",
+    item: "Pokémon Magnetic Case",
+    link: "https://noxl.ink/riue0o",
+    disc_code: "NIAFC579",
+    disc_percent: "15",
+  },
+  {
     brand: "Doughnut",
     item: "Pompompurin Series Bag",
     link: "https://bit.ly/46bk8Gb",
