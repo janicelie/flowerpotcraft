@@ -7,6 +7,13 @@ $(document).ready(function () {
 
 var productData = [
   {
+    brand: "Uneede",
+    item: "Duck Ceramic Mug",
+    link: "https://uneede.cc/products/benson-the-duck-coffee-mug-safety-ceramic-milk-latte-mugs?ref=flowerpotcraft",
+    disc_code: "FLOWERPOTCRAFT",
+    disc_percent: "10",
+  },
+  {
     brand: "Casebang",
     item: "Pokémon Magnetic Case",
     link: "https://noxl.ink/riue0o",
