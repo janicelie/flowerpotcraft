@@ -6,6 +6,13 @@ $(document).ready(function () {
 });
 
 var productData = [
+    {
+    brand: "Blingblingyarn",
+    item: "Glowing Yarn",
+    link: "http://www.blingblingyarn.com/flowerpotcraft",
+    disc_code: "FLOWERPOTCRAFT",
+    disc_percent: "10",
+  },
   {
     brand: "Uneede",
     item: "Duck Ceramic Mug",
@@ -61,13 +68,6 @@ var productData = [
     link: "https://www.amazon.com/dp/B0D3F69XSP/ref=tsm_1_fb_lk",
     disc_code: "",
     disc_percent: "",
-  },
-  {
-    brand: "Blingblingyarn",
-    item: "Glowing Yarn",
-    link: "http://www.blingblingyarn.com/flowerpotcraft",
-    disc_code: "FLOWERPOTCRAFT",
-    disc_percent: "10",
   },
   {
     brand: "TokyoCatch",
