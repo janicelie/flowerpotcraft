@@ -7,6 +7,13 @@ $(document).ready(function () {
 
 var productData = [
     {
+    brand: "Casebang",
+    item: "Veggies Magnetic Case",
+    link: "https://casebang.com/discount/NIAFC579",
+    disc_code: "NIAFC579",
+    disc_percent: "15",
+  },
+    {
     brand: "Blingblingyarn",
     item: "Glowing Yarn",
     link: "http://www.blingblingyarn.com/flowerpotcraft",
@@ -20,7 +27,7 @@ var productData = [
     disc_code: "FLOWERPOTCRAFT",
     disc_percent: "10",
   },
-  {
+ /* {
     brand: "Casebang",
     item: "Pokémon Magnetic Case",
     link: "https://noxl.ink/riue0o",
@@ -68,7 +75,7 @@ var productData = [
     link: "https://www.amazon.com/dp/B0D3F69XSP/ref=tsm_1_fb_lk",
     disc_code: "",
     disc_percent: "",
-  },
+  },*/
   {
     brand: "TokyoCatch",
     item: "Redeem Free 5 Plays",
@@ -76,7 +83,7 @@ var productData = [
     disc_code: "",
     disc_percent: "",
   },
-  {
+ /* {
     brand: "Cerakey",
     item: "Ceramic Keycaps",
     link: "https://www.cerakey.com/products/full-set-v2",
@@ -89,7 +96,7 @@ var productData = [
     link: "https://www.kiiboom.com/products/kiiboom-phantom-68?variant=43936439271668",
     disc_code: "",
     disc_percent: "",
-  },
+  },*/
   {
     brand: "Energize Lab",
     item: "Eilik",
@@ -97,13 +104,13 @@ var productData = [
     disc_code: "FLOWER02",
     disc_percent: "$$$",
   },
-  {
+  /*{
     brand: "Casebang",
     item: "Magnetic Phone Case",
     link: "https://casebang.com/",
     disc_code: "FLOWERPOTCRAFT15",
     disc_percent: "15",
-  },
+  },*/
   {
     brand: "Chongker",
     item: "Realistic Cat Backpack",
@@ -118,7 +125,7 @@ var productData = [
     disc_code: "FLOWERPOTCRAFT",
     disc_percent: "10",
   },
-  {
+/*  {
     brand: "Feker",
     item: "Galaxy80 Keyboard",
     link: "https://fekertech.com/products/epomaker-feker-galaxy80",
@@ -145,7 +152,7 @@ var productData = [
     link: "https://cololight-2.kckb.st/flowerpot",
     disc_code: "COLOLIGHT-FLOWERPOT",
     disc_percent: "10",
-  },
+  },*/
   {
     brand: "Uneede",
     item: "Capybara Night Lamp",
@@ -153,7 +160,7 @@ var productData = [
     disc_code: "FLOWERPOTCRAFT",
     disc_percent: "10",
   },
-  {
+  /*{
     brand: "Kiiboom",
     item: "Meow Meow Squad Keycaps",
     link: "https://www.kiiboom.com/products/kiiboom-maorbeng-meow-meow-squad-keycaps?_pos=1&_sid=a7db0f8d8&_ss=r",
@@ -173,7 +180,7 @@ var productData = [
     link: "https://en.akkogear.com/product/mochidango-3068b-plus-mechanical-keyboard/",
     disc_code: "",
     disc_percent: "",
-  },
+  },*/
   {
     brand: "Kikagoods",
     item: "Blind Boxes",
@@ -183,12 +190,12 @@ var productData = [
   },
   {
     brand: "Niimbot",
-    item: "B1 Label Maker",
+    item: "Label Maker",
     link: "https://niimbots.com/discount/Flowerpot?ref=fmdpy289",
     disc_code: "FLOWERPOT",
     disc_percent: "15",
   },
-  {
+/*  {
     brand: "Akko",
     item: "Cat Theme Mouse",
     link: "https://en.akkogear.com/product/akko-cat-theme-mouse/",
@@ -222,7 +229,7 @@ var productData = [
     link: "https://niimbots.com/products/niimbot-b21-label-maker-machine-with-tape?ref=fmdpy289",
     disc_code: "FLOWERPOT",
     disc_percent: "15",
-  },
+  },*/
 ];
 
 function showProject(productData) {
