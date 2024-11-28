@@ -27,6 +27,13 @@ var productData = [
     disc_code: "FLOWERPOTCRAFT",
     disc_percent: "10",
   },
+  {
+    brand: "Akko",
+    item: "Cinnamoroll ACR TOP75B Keyboard",
+    link: "https://en.akkogear.com/product/cinnamoroll-acr-top75b-mechanical-keyboard/",
+    disc_code: "",
+    disc_percent: "",
+  },
  /* {
     brand: "Casebang",
     item: "Pokémon Magnetic Case",
@@ -52,13 +59,6 @@ var productData = [
     brand: "GeekShare",
     item: "Magic Bunny Deskmat",
     link: "https://geekshare.com/products/magic-bunny-mouse-pad/",
-    disc_code: "",
-    disc_percent: "",
-  },
-  {
-    brand: "Akko",
-    item: "Cinnamoroll ACR TOP75B Keyboard",
-    link: "https://en.akkogear.com/product/cinnamoroll-acr-top75b-mechanical-keyboard/",
     disc_code: "",
     disc_percent: "",
   },
@@ -97,13 +97,13 @@ var productData = [
     disc_code: "",
     disc_percent: "",
   },*/
-  {
-    brand: "Energize Lab",
-    item: "Eilik",
-    link: "https://store.energizelab.com/?ref=flowerpotcraft",
-    disc_code: "FLOWER02",
-    disc_percent: "$$$",
-  },
+  // {
+  //   brand: "Energize Lab",
+  //   item: "Eilik",
+  //   link: "https://store.energizelab.com/?ref=flowerpotcraft",
+  //   disc_code: "FLOWER02",
+  //   disc_percent: "$$$",
+  // },
   /*{
     brand: "Casebang",
     item: "Magnetic Phone Case",
@@ -111,20 +111,20 @@ var productData = [
     disc_code: "FLOWERPOTCRAFT15",
     disc_percent: "15",
   },*/
-  {
-    brand: "Chongker",
-    item: "Realistic Cat Backpack",
-    link: "https://chongker.com/products/ragdoll-backpacknew-arrive?ref=flowerpotcraft",
-    disc_code: "FLOWERPOT",
-    disc_percent: "10",
-  },
-  {
-    brand: "Martube",
-    item: "Pochacco Speaker",
-    link: "https://martubegift.com/?utm_source=instagram&utm_medium=social&utm_campaign=kol_flowerpotcraft&utm_id=148",
-    disc_code: "FLOWERPOTCRAFT",
-    disc_percent: "10",
-  },
+  // {
+  //   brand: "Chongker",
+  //   item: "Realistic Cat Backpack",
+  //   link: "https://chongker.com/products/ragdoll-backpacknew-arrive?ref=flowerpotcraft",
+  //   disc_code: "FLOWERPOT",
+  //   disc_percent: "10",
+  // },
+  // {
+  //   brand: "Martube",
+  //   item: "Pochacco Speaker",
+  //   link: "https://martubegift.com/?utm_source=instagram&utm_medium=social&utm_campaign=kol_flowerpotcraft&utm_id=148",
+  //   disc_code: "FLOWERPOTCRAFT",
+  //   disc_percent: "10",
+  // },
 /*  {
     brand: "Feker",
     item: "Galaxy80 Keyboard",
@@ -153,13 +153,13 @@ var productData = [
     disc_code: "COLOLIGHT-FLOWERPOT",
     disc_percent: "10",
   },*/
-  {
-    brand: "Uneede",
-    item: "Capybara Night Lamp",
-    link: "https://uneede.cc/products/uneede-capybara-night-light?ref=flowerpotcraft",
-    disc_code: "FLOWERPOTCRAFT",
-    disc_percent: "10",
-  },
+  // {
+  //   brand: "Uneede",
+  //   item: "Capybara Night Lamp",
+  //   link: "https://uneede.cc/products/uneede-capybara-night-light?ref=flowerpotcraft",
+  //   disc_code: "FLOWERPOTCRAFT",
+  //   disc_percent: "10",
+  // },
   /*{
     brand: "Kiiboom",
     item: "Meow Meow Squad Keycaps",
@@ -181,13 +181,13 @@ var productData = [
     disc_code: "",
     disc_percent: "",
   },*/
-  {
-    brand: "Kikagoods",
-    item: "Blind Boxes",
-    link: "https://www.kikagoods.com/",
-    disc_code: "FLOWERPOTCRAFT10",
-    disc_percent: "10",
-  },
+  // {
+  //   brand: "Kikagoods",
+  //   item: "Blind Boxes",
+  //   link: "https://www.kikagoods.com/",
+  //   disc_code: "FLOWERPOTCRAFT10",
+  //   disc_percent: "10",
+  // },
   {
     brand: "Niimbot",
     item: "Label Maker",
