@@ -6,6 +6,13 @@ $(document).ready(function () {
 });
 
 var productData = [
+  {
+    brand: "Cidoo",
+    item: "V65 Pro",
+    link: "https://cidootech.com/products/cidoo-v65",
+    disc_code: "",
+    disc_percent: "",
+  },
     {
     brand: "Casebang",
     item: "Veggies Magnetic Case",
