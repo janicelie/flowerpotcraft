@@ -7,6 +7,13 @@ $(document).ready(function () {
 
 var productData = [
   {
+    brand: "Meccha Japan",
+    item: "Japanese Licenses Stuffs",
+    link: "https://meccha-japan.com/en/?utm_source=flowerpotcraft&utm_medium=partners&utm_campaign=meccha-partners&utm_content=ig&utm_term=kawaii",
+    disc_code: "FLOWERPOT10",
+    disc_percent: "$10 off",
+  }
+  {
     brand: "Cidoo",
     item: "V65 Pro",
     link: "https://cidootech.com/products/cidoo-v65",
