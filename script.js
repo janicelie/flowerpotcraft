@@ -7,6 +7,13 @@ $(document).ready(function () {
 
 var productData = [
   {
+    brand: "Akko",
+    item: "MG75W Bun Wonderland Keyboard",
+    link: "https://en.akkogear.com/product/mg75w-bun-wonderland-mechanical-keyboard/",
+    disc_code: "",
+    disc_percent: "",
+  },
+  {
     brand: "Meccha Japan",
     item: "Japanese Licenses Stuffs",
     link: "https://meccha-japan.com/en/?utm_source=flowerpotcraft&utm_medium=partners&utm_campaign=meccha-partners&utm_content=ig&utm_term=kawaii",
