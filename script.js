@@ -7,6 +7,13 @@ $(document).ready(function () {
 
 var productData = [
   {
+    brand: "Epomaker",
+    item: "Galaxy100",
+    link: "https://epomaker.com/products/epomaker-galaxy100-qmk-via?utm_source=promotion&utm_medium=24_12_20&utm_campaign=flowerpotcraft/",
+    disc_code: "",
+    disc_percent: "",
+  },
+  {
     brand: "Akko",
     item: "MG75W Bun Wonderland Keyboard",
     link: "https://en.akkogear.com/product/mg75w-bun-wonderland-mechanical-keyboard/",
