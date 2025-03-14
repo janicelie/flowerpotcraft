@@ -7,6 +7,20 @@ $(document).ready(function () {
 
 var productData = [
   {
+    brand: "Epomaker",
+    item: "P87 Keyboard",
+    link: "https://epomaker.com/products/epomaker-p87?utm_source=promotion&utm_medium%3D25_02_13&utm_campaign%3Dflowerpotcraft",
+    disc_code: "",
+    disc_percent: "",
+  },
+  {
+    brand: "Epomaker",
+    item: "Click Mouse",
+    link: "https://epomaker.com/products/epomaker-click-mouse?utm_source=promotion&utm_medium%3D25_02_13&utm_campaign%3Dflowerpotcraft",
+    disc_code: "",
+    disc_percent: "",
+  },
+  {
     brand: "Akko",
     item: "My Sweet Piano 5108B Plus Keyboard",
     link: "https://en.akkogear.com/product/my-sweet-piano-5108b-plus-mechanical-keyboard/",
